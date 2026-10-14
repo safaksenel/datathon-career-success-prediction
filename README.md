@@ -1,11 +1,11 @@
 # 🏆 Google & BTK Akademi Datathon 2026: Career Success Score Prediction
-### *Türkiye Geneli İlk %10 (Top 10%) Derecesi — Çok Modlu (Tabular + NLP) Stacking Regresyon Mimarisi*
+### *Çok Modlu (Tabular + NLP) Stacking Regresyon Mimarisi & Optuna Optimizasyonu*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![LightGBM](https://img.shields.io/badge/LightGBM-Optuna-brightgreen)](https://lightgbm.readthedocs.io/)
 [![CatBoost](https://img.shields.io/badge/CatBoost-GBDT-yellow)](https://catboost.ai/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Stacking%20Ensemble-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Competition](https://img.shields.io/badge/Standing-Top%2010%25%20Nationwide-gold)](#)
+[![Optimization](https://img.shields.io/badge/Optimization-Optuna%20Bayesian-brightgreen)](https://optuna.org/)
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 ---
@@ -13,12 +13,12 @@
 ## 📌 Yarışma & Proje Özeti / Competition Overview
 
 **[TR]**  
-**Google**, **BTK Akademi** ve **Girişimcilik Vakfı (GİRVAK)** ortaklığında düzenlenen **Datathon 2026** kapsamında geliştirilen ve Türkiye geneli **ilk %10 (Top 10%)** dilimine giren yarışma çözümüdür.
+**Google**, **BTK Akademi** ve **Girişimcilik Vakfı (GİRVAK)** ortaklığında düzenlenen **Datathon 2026** kapsamında geliştirilen makine öğrenimi yarışma çözümüdür.
 
 Yarışmanın temel hedefi; öğrencilerin akademik, teknik, staj, portfolyo ve GitHub aktivitelerinin yanı sıra mentor değerlendirme metinlerini (`mentor_feedback_text`) birlikte işleyerek sürekli bir hedef değişken olan **`career_success_score`** (0 - 100) değerini minimum **MSE (Mean Squared Error)** ile tahmin etmektir.
 
 **[EN]**  
-Official competition solution securing a **Top 10% nationwide ranking** in **Datathon 2026**, organized jointly by **Google**, **BTK Akademi**, and the **Entrepreneurship Foundation (GIRVAK)**.
+Official competition solution developed for **Datathon 2026**, organized jointly by **Google**, **BTK Akademi**, and the **Entrepreneurship Foundation (GIRVAK)**.
 
 The task required predicting continuous **`career_success_score`** (0 - 100) from multi-modal student data combining tabular features (academic, internships, project portfolios, GitHub metrics, soft skills) and unstructured text evaluations (`mentor_feedback_text`) optimizing for minimum **Mean Squared Error (MSE)**.
 
@@ -94,8 +94,8 @@ jupyter notebook datathon_2026_solution.ipynb
 
 ## 👨‍💻 Geliştirici / Author
 
-**Ahmet Şafak Şenel**  
+**Şafak Şenel**  
 - **GitHub:** [@safaksenel](https://github.com/safaksenel)  
-- **LinkedIn:** [Ahmet Şafak Şenel](https://www.linkedin.com/in/%C5%9Fafak-%C5%9Fenel-70a633319/)  
+- **LinkedIn:** [Şafak Şenel](https://www.linkedin.com/in/%C5%9Fafak-%C5%9Fenel-70a633319/)  
 - **Kaggle:** [afakenel](https://www.kaggle.com/afakenel)  
-- **Portfolio:** [safaksenel.dev](https://github.com/safaksenel/portfolio)  
+- **Portfolio:** [portfolio-q663.vercel.app](https://portfolio-q663.vercel.app)
