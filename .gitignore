@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Large Datasets
+*.csv
+!sample_submission.csv
+*.parquet
+*.feather
+
+# OS & IDE
+.vscode/
+.idea/
+.DS_Store
